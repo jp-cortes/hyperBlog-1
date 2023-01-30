@@ -1,0 +1,105 @@
+header {
+    width: 100%;
+    height: 50px;
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+header .header-icons-container .icons {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    justify-self: end;
+    margin-right: 50px;
+}
+header .icons span {
+    color: whitesmoke;
+}
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
+main.blogpost-main{
+    display: grid;
+    padding: 0 ;
+    margin-top: 70px;
+    
+}
+section.blogpost-news-container{
+    background-color: chocolate;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+.blogpost-news-container-title {
+    margin-left: 50px;
+}
+section .blogpost-main-news{
+    margin-left: 40px;
+    grid-column: 1 ;
+}
+section .blogpost-news-article {
+    grid-column: 2 ;
+    padding-right: 20px;
+}
+section .blogpost-news-article p {
+    margin-bottom: 50px;
+}
+.blogpost-main-news img{
+    width: 80%;
+}
+section.blogpost-container{
+    text-align: center;
+}
+section .blogpost-container-articles{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    gap: 20px;
+    /* text-align: center; */
+}
+article.blogpost-articles{
+    margin-bottom: 50px;
+    padding: 0 20px ;
+    
+    /* max-width: 30%; */
+}
+article.blogpost-articles img {
+    width: 90%;
+}
+article .blogpost-articles-title{
+    font-size: larger;
+    font-weight: 900;
+}
+article .blogpost-articles-info{
+    padding: 0 20px;
+    margin-bottom: 40px;
+    text-align: initial;
+}
+.read-more-button {
+    background-color: aquamarine;
+    
+    padding: 12px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #1e1e1e;
+    border-top: 35px solid aqua;
+}
