@@ -5,10 +5,11 @@
 body
 {
     font-family: 'Roboto Mono', monospace;
-    /* background: #1e1f24; */
+    background: #545c59;
     /* kcolor: #333; */
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
 }
 a {
@@ -33,7 +34,7 @@ header .header-icons-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: #47cfac;
+    background-color: #181818;
 }
 header .header-icons-container .icons {
     width: 300px;
@@ -60,7 +61,7 @@ main.home-main {
     place-items: center;
     object-fit: contain;
     height: 95vh;
-    color: wheat;
+    color: whitesmoke;
 }
 .section {
     display: grid;
@@ -85,18 +86,18 @@ main.home-main {
     
 }
 .about-me-link a {
-    color: black;
-    border-bottom: 2px solid black;
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
 }
 .home-main-text {
     grid-column: 1 / 3;
    
 }
 .home-main-button {
-    background-color: aquamarine;
+    background-color: #01aa6d;
     padding: 16px;
     border-radius: 8px;
-    color: black;
+    color: whitesmoke;
     font-weight: bold;
     grid-column: 1 / 3;
     

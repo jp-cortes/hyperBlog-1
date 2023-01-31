@@ -10,7 +10,7 @@ header .header-icons-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: #47cfac;
+    background-color: #181818;
 }
 header .header-icons-container .icons {
     width: 300px;
@@ -32,8 +32,8 @@ header .icons span {
 footer {
     width: 100%;
     height: 80px;
-    background-color: #1e1e1e;
-    border-top: 35px solid aqua;
+    background-color: #181818;
+    border-top: 35px solid #01aa6d;
 }
 
 .blogpost-image-container {
@@ -44,7 +44,8 @@ footer {
     width: 100%;
 }
 .blogpost-main-container {
-    padding:  0 50px  40px; 
+    padding:  0 50px  40px;
+    color: whitesmoke; 
 }
 .blogpost-main-container h3 {
     border-bottom: solid 1px #cdd3da;
